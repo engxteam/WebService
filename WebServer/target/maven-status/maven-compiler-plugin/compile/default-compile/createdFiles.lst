@@ -1,0 +1,8 @@
+com\epam\microservices\exceptions\AccountNotFoundException.class
+com\epam\microservices\web\WebAccountsController.class
+com\epam\microservices\web\WebServer.class
+com\epam\microservices\service\WebAccountsService.class
+com\epam\microservices\config\AccountConfiguration.class
+com\epam\microservices\web\HomeController.class
+com\epam\microservices\web\SearchCriteria.class
+com\epam\microservices\vo\Account.class
