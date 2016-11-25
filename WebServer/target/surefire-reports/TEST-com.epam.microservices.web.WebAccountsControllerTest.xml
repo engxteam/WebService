@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epam.microservices.web.WebAccountsControllerTest" time="0.567" tests="5" errors="0" skipped="4" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\bin"/>
+    <property name="java.vm.version" value="25.73-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\engx_workspace\WebService\WebServer"/>
+    <property name="java.runtime.version" value="1.8.0_73-b02"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dilip\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="E:\Software\apache-maven-3.1.0\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Dilip\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\cmd;C:\Users\Dilip\AppData\Local\GitHub\PortableGit_c2ba306e536fdf878271f7fe636a147ff37326ad\bin;C:\Users\Dilip\AppData\Local\Apps\2.0\Y9NH4D57.2QR\Z0KAXBDA.2BW\gith..tion_317444273a93ac29_0002.000e_114545a4195e25d4;C:\Users\Dilip\AppData\Local\GitHub\lfs-amd64_0.5.1;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\ProgramData\Oracle\Java\javapath;E:\Oracle\app\oracle\product\11.2.0\server\bin;E:\Software\oraclexe\app\oracle\product\11.2.0\server\bin;C:\app\Dilip\product\11.2.0\bin;%JAVA_HOME%\bin;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\TortoiseSVN\bin;C:\aspectj1.8\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files\nodejs\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Ruby22-x64\bin;E:\Software\apache-maven-3.1.0\bin;E:\Software\apache-ant-1.9.2\bin;c:\aspectj1.8\bin;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Program Files (x86)\WinRAR;E:\Software\gradle-2.13\bin;C:\Users\Dilip\AppData\Roaming\npm;C:\Users\Dilip\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Dilip"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Dilip"/>
+    <property name="java.class.path" value="E:\Software\apache-maven-3.1.0\bin\..\boot\plexus-classworlds-2.4.2.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_73\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -X -U -DskipTest=true"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_73"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_73\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_73\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_73\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="skipTest" value="true"/>
+    <property name="maven.home" value="E:\Software\apache-maven-3.1.0\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testSearchForm" classname="com.epam.microservices.web.WebAccountsControllerTest" time="0">
+    <skipped/>
+    <system-out><![CDATA[PID_IS_UNDEFINED: DEBUG SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+PID_IS_UNDEFINED: DEBUG BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+PID_IS_UNDEFINED: DEBUG BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.epam.microservices.web.WebAccountsControllerTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+PID_IS_UNDEFINED: DEBUG AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@6b0c2d26 declaringClass = 'com.epam.microservices.web.WebAccountsControllerTest', classes = '{class com.epam.microservices.config.AccountConfiguration}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+PID_IS_UNDEFINED: DEBUG ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.epam.microservices.web.WebAccountsControllerTest]: using defaults.
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@568bf312, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@ca263c2, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@589b3632, org.springframework.test.context.support.DirtiesContextTestExecutionListener@45f45fa1]
+PID_IS_UNDEFINED: DEBUG ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+PID_IS_UNDEFINED: DEBUG BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+PID_IS_UNDEFINED: DEBUG BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.epam.microservices.web.WebAccountsControllerTest] from class [org.springframework.test.context.web.WebTestContextBootstrapper]
+PID_IS_UNDEFINED: DEBUG AbstractDelegatingSmartContextLoader - Delegating to AnnotationConfigWebContextLoader to process context configuration [ContextConfigurationAttributes@214b199c declaringClass = 'com.epam.microservices.web.WebAccountsControllerTest', classes = '{class com.epam.microservices.config.AccountConfiguration}', locations = '{}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+PID_IS_UNDEFINED: DEBUG ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG WebTestContextBootstrapper - @TestExecutionListeners is not present for class [com.epam.microservices.web.WebAccountsControllerTest]: using defaults.
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+PID_IS_UNDEFINED: INFO  WebTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3ee0fea4, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@48524010, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4b168fa9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1a84f40f]
+PID_IS_UNDEFINED: DEBUG ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.epam.microservices.web.WebAccountsControllerTest]
+PID_IS_UNDEFINED: DEBUG AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3b938003 testClass = WebAccountsControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6f3b5d16 testClass = WebAccountsControllerTest, locations = '{}', classes = '{class com.epam.microservices.config.AccountConfiguration}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.test.context.web.WebDelegatingSmartContextLoader', parent = [null]]], class annotated with @DirtiesContext [false] with mode [null].
+]]></system-out>
+  </testcase>
+  <testcase name="testOwnerSearch" classname="com.epam.microservices.web.WebAccountsControllerTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testDoSearch" classname="com.epam.microservices.web.WebAccountsControllerTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="testGoHome" classname="com.epam.microservices.web.WebAccountsControllerTest" time="0.567"/>
+  <testcase name="testByNumber" classname="com.epam.microservices.web.WebAccountsControllerTest" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
