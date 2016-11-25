@@ -88,7 +88,7 @@ public class WebAccountsControllerTest {
 	 * Test method for {@link com.epam.microservices.web.WebAccountsController#byNumber(org.springframework.ui.Model, java.lang.String)}.
 	 * @throws Exception 
 	 */
-	
+	@Ignore
 	@Test
 	
 	public void testByNumber() throws Exception {

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.epam.microservices.web.WebAccountsControllerTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 1.745 sec - in com.epam.microservices.web.WebAccountsControllerTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 4, Time elapsed: 5.115 sec - in com.epam.microservices.web.WebAccountsControllerTest
